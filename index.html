@@ -77,8 +77,13 @@
 		</div>
 	</section>
 	<section id="about">
-		<div class="picture left">
-			<img src="./assets/images/nina.webp" alt="self-portrait of the photographer">
+		<div itemscope itemtype="http://schema.org/ImageObject" class="picture left">
+			
+			<img itemprop="contentUrl" src="./assets/images/nina.webp" alt="self-portrait of the photographer">
+
+			<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<meta itemprop="name" content="Nina Carducci">
+			  </div>
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
